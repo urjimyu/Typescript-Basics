@@ -6,6 +6,7 @@
 		"outDir": "build",
 		// 컴파일할 자스 버전 지정
 		"target": "ES6",
-		"lib": ["ES6", "DOM"]
+		"lib": ["ES6", "DOM"],
+		"strict": true
 	}
 }
