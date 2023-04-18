@@ -4,9 +4,11 @@
 	// 컴파일 완료한 자스 파일 저장 위치
 	"compilerOptions": {
 		"outDir": "build",
+		"esModuleInterop": true,
 		// 컴파일할 자스 버전 지정
 		"target": "ES6",
-		"lib": ["ES6", "DOM"],
-		"strict": true
+		"lib": ["ES6"],
+		"strict": true,
+		"module": "CommonJS"
 	}
 }
